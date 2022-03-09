@@ -1,0 +1,15 @@
+MAIN SYNTAX:
+
+== Init ==
+TAPE => Initialise a tape
+
+== Commands ==
+= Tape =
+T R n => Move tape pointer to right by n
+T L n => Move tape pointer to left by n
+T A n => Add 1 to current tape cell
+T D n => Subtract 1 from current tape cell
+
+= I/O =
+O (type) (stream) => Output first item from stream as type
+I (type) (stream) => Input first item into stream as type
